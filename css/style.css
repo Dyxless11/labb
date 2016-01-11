@@ -11,24 +11,48 @@
         display: block;
         margin: 0 auto;
         border: none;
+		background: #F0FFFF;
     }
 .center{  width: auto;
     height: auto;
     position: absolute;
 	left: 190px;
 	right: 190px;
+	background:  #F0FFFF;
     top: 35%;
-    center: 50%;	
+	margin-left: 20px;
+   	
+
+}
+.center1{  width: auto;
+    height: auto;
+	background:  #F0FFFF;
+	position: absolute;
+    top: 35%;
+
+   	
+
+}
+.all{
+	display: inline-block;
+	margin-top: 30px;
+	font-family: Arial;
+	font-size: 20px;
+	text-indent: 50px;
+}
+.div{  vertical-align: center;
+   text-align: center;
 }
  #footer {
     position: fixed; /* Фиксированное положение */
     left: 0; bottom: 0; /* Левый нижний угол */
     color: #fff; /* Цвет текста */
     width: 100%; /* Ширина слоя */
+    padding: 2px;
    }
    #footer div {
     padding: 10px; /* Поля вокруг текста */
-    background: #39b54a; /* Цвет фона */
+    background: #4169E0; /* Цвет фона */
    }
   
 
@@ -41,45 +65,19 @@
 
 
 
-   
-   
-     body {
+ 
+   body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: #54463d; /* Цвет фона */
+    background: #1E90FF ; /* Цвет фона */
    margin: 0; /* Убираем отступы */
    font-family: Comic Sans MS, cursive;
    }
-   h2 {
-    font-size: 1.1em; /* Размер шрифта */
-    color: #000000; /* Цвет текста */
-    margin-bottom: 0; /* Отступ снизу */
-   }
-   #container {
-    width: 500px; /* Ширина макета */
-    margin: 0 auto; /* Выравниваем по центру */
-    background: #f0f0f0; /* Цвет фона правой колонки */ 
-   }
   
-   }
-   #content {
-    float: left; /* Обтекание по правому краю */
-    width: 329px; /* Ширина левой колонки */
-    padding: 10px; /* Поля вокруг текста */
-    border-right: 1px dashed #183533; /* Линия справа */
-    background: #fff; /* Цвет фона левой колонки */
-	margin: 20px;
-   }
-   #content p {
-    margin-top: 0.3em /* Отступ сверху */
-   }
-   #sidebar {
-    float: left; /* Обтекание по правому краю */
-    width: 120px; /* Ширина */
-    padding: 10px; /* Отступы вокруг текста */
-   }
+ 
+  
    #footer {
-    background: #8fa09b; /* Цвет фона */
+    background:  #4169EF; /* Цвет фона */
     color: #fff; /* Цвет текста */
-    padding: 5px; /* Отступы вокруг текста */
+    padding: 2px; /* Отступы вокруг текста */
    }
    
